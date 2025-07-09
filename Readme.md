@@ -62,7 +62,7 @@ streamlit run app.py
 
 ## 🖼️ Demo Screenshot
 
-_Add a screenshot of your app UI here_
+![Result Summary](./data/app_1.PNG)
 
 ---
 
