@@ -2,7 +2,9 @@
 
 Apply the **style** of famous artworks to a **content** image using deep learning!
 
-This project implements **Neural Style Transfer (NST)** using a pretrained VGG-19 network in PyTorch. You can run it through a Jupyter notebook or interactively with a responsive Streamlit app.
+This project implements **Neural Style Transfer (NST)** using a pretrained VGG-19 network in PyTorch. You can run it through a Jupyter notebook or interactively with a responsive Streamlit app. 
+👉 **Try the app live:** [neural-style-transfer-ryma.streamlit.app](https://neural-style-transfer-ryma.streamlit.app)
+
 
 ![Result Summary](./data/result/style_3_output.jpg)
 
@@ -48,11 +50,12 @@ This implementation is heavily inspired by the original code from:
 
 ### 🌐 App (`app.py`)
 
-Launch the interactive Streamlit app:
+Launch the interactive Streamlit app locally:
 
 ```bash
 streamlit run app.py
 ```
+or try it live 👉 [neural-style-transfer-ryma.streamlit.app](https://neural-style-transfer-ryma.streamlit.app)
 
 - Upload your own content and style images.
 - Adjust the number of optimization steps and style weight.
