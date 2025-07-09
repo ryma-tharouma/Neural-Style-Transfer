@@ -62,7 +62,8 @@ streamlit run app.py
 
 ## 🖼️ Demo Screenshot
 
-![Result Summary](./data/app_1.PNG)
+![demo app 1](./data/app_1.PNG)
+![demo app 2](./data/app_2.PNG)
 
 ---
 
