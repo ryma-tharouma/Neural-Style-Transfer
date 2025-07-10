@@ -138,9 +138,9 @@ style_file = st.file_uploader("Upload Style Image", type=["jpg", "png", "jpeg"])
 # Side-by-side sliders
 col_steps, col_style = st.columns(2)
 with col_steps:
-    steps = st.slider("🌀 Optimization steps", 50, 1000, 300, step=50)
+    steps = st.slider("Optimization steps", 10, 500, 100, step=10)
 with col_style:
-    style_weight = st.slider("🎚️ Style weight", 1e3, 1e7, 1e4, step=1e3, format="%.0f")
+    style_weight = st.slider("Style weight", 1e1, 1e5, 1e4, step=1e1, format="%.0f")
 
 # Button
 if st.button("Run Style Transfer") and content_file and style_file:
